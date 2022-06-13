@@ -1,6 +1,6 @@
-name: "tfsec action"
-description: "Runs tfsec and outputs any failures"
-author: "owen.rumney@aquasec.com"
+name: "tfsec1 action"
+description: "Runs tfsec and outputs any failures and results"
+author: "ketangit"
 
 inputs:
   working_directory:
@@ -35,4 +35,4 @@ runs:
   image: "Dockerfile"
 branding:
   icon: "git-pull-request"
-  color: "purple"
+  color: "blue"
