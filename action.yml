@@ -26,6 +26,8 @@ inputs:
     required: false
     description: If set to `true` the action step won't break the  build
 outputs:
+  tfsec-result:
+    description: "tfsec command results"
   tfsec-return-code:
     description: "tfsec command return code"
 runs:
