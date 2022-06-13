@@ -26,4 +26,4 @@ FORMAT=${INPUT_FORMAT:-default}
 
 tfsec --format=${FORMAT} ${SOFT_FAIL} ${TFSEC_ARGS_OPTION} "${INPUT_WORKING_DIRECTORY}"
 
-echo ::set-output name=results::$(cat aqua.txt)
+echo ::set-output name=tfsec-result::$(cat aqua.txt)
